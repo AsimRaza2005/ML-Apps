@@ -1,7 +1,6 @@
 import streamlit as st
 import numpy as np
 import pickle
-import os
     
 # load_model = pickle.load(open('C:\\JN\\New folder\\Picke_model.pkl', "rb"))
 
@@ -13,7 +12,7 @@ st.write("""
 st.title("Heart Failure Clinical Records")
 
 def load_model():
-    model_path = os.path.join('C:\\', 'JN', 'New folder', 'Heart_model.pkl')
+    model_path = 'C:\\JN\\New folder\\Heart_model.pkl'
     model = pickle.load(open(model_path, "rb"))
     return model
 
