@@ -12,7 +12,7 @@ st.write("""
 st.title("Heart Failure Clinical Records")
 
 def load_model():
-    model_path = 'C:\\JN\\New folder\\Heart_model.pkl'
+    model_path = 'Heart_model.pkl'
     model = pickle.load(open(model_path, "rb"))
     return model
 
