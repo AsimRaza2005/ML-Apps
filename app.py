@@ -58,3 +58,5 @@ if check:
         else:
             st.write("If you don't take care of your health properly, your heart could fail")
 
+            st.write("Requirements for Patients with Heart Failure"
+
