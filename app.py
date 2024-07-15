@@ -60,3 +60,9 @@ if check:
 
             st.write("Requirements for Patients with Heart Failure")
 
+            st.wrie("""Medical Management
+                    Lifestyle Changes
+                     Self-Care
+                     Advanced Planning
+                     """)
+
