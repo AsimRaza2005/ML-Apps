@@ -5,7 +5,7 @@ import pandas as pd
 st.title("Real Estate Price Detector")
 
 def load_model():
-    model = pickle.load(open("Realstate_model.pkl", 'rb'))
+    model = pickle.load(open("RealState_model.pkl", 'rb'))
     return model
 
 check = st.checkbox("Load Model")
