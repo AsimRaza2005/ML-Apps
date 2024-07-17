@@ -26,7 +26,7 @@ if check:
     Owner = st.number_input("**Enter car Owner(0)**")
     
     
-    if st.button('Calculate Call Selling Price'):
+    if st.button('Calculate Car Selling Price'):
         
         features = [[Year, Present_Price, Kms_Driven, Fuel_Type, Seller_Type, Transmission, Owner]]
         Selling_price = model.predict(features)[0]
