@@ -1,6 +1,5 @@
 streamlit
-scikit-learn
+scikit-learn 1.5
 joblib
-re
 nltk
 
