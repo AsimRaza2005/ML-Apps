@@ -4,4 +4,7 @@ joblib
 nltk
 tensorflow
 keras
+matplotlib
+numpy 
+seaborn
 
