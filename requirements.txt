@@ -2,4 +2,6 @@ streamlit
 scikit-learn
 joblib
 nltk
+tensorflow
+keras
 
