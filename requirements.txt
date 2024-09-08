@@ -9,4 +9,5 @@ numpy
 seaborn
 cv2
 PIL
+Image
 
