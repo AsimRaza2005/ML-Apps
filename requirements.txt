@@ -7,7 +7,7 @@ keras
 matplotlib
 numpy 
 seaborn
-cv2
+OpenCV
 PIL
 Image
 
